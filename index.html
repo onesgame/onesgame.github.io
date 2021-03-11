@@ -1,0 +1,32 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta data-n-head=true property=og:site_name content="ONES GAME"><meta data-n-head=true property=og:title content=ONESGAME><meta data-n-head=true property=og:type content=website><meta data-n-head=true property=og:url content=https://ones.game/ ><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0"><meta name=apple-mobile-web-app-capable content=yes><title data-n-head=true>OnesPlay</title><link data-n-head=true rel=icon type=image/x-icon href=/static/favicon.ico><link rel=stylesheet href=https://cdn.jsdelivr.net/gh/onesgame/onesgame.github.io/static/third/iconfont/iconfont.css><style>* {
+      margin: 0;
+      padding: 0
+    }
+
+    #cnzz_stat_icon_1278802451 {
+      display: none;
+    }
+
+    .el-message {
+      margin-top: 40px !important;
+    }</style><link href=https://cdn.jsdelivr.net/gh/onesgame/onesgame.github.io/static/css/app.18bb6b08df604d0398cb06fce0d7a8c2.css rel=stylesheet></head><body style="margin:0 auto;"><div id=app></div><script>window.dataLayer = window.dataLayer || [];
+
+    const keyCodeMap = {
+      91: true, // command
+      61: true,
+      107: true, // 数字键盘 +
+      109: true, // 数字键盘 -
+      173: true, // 火狐 - 号
+      187: true, // +
+      189: true, // -
+    };
+    // 覆盖ctrl||command + ‘+’/‘-’
+    document.onkeydown = function (event) {
+      const e = event || window.event;
+      const ctrlKey = e.ctrlKey || e.metaKey;
+      if (ctrlKey && keyCodeMap[e.keyCode]) {
+        e.preventDefault();
+      } else if (e.detail) { // Firefox
+        event.returnValue = false;
+      }
+    };</script><script src=https://cdn.jsdelivr.net/gh/onesgame/onesgame.github.io/static/third/vue/2.6.11/vue.min.js></script><script src=https://cdn.jsdelivr.net/gh/onesgame/onesgame.github.io/static/third/vue-router/3.0.1/vue-router.min.js></script><script src=https://cdn.jsdelivr.net/gh/onesgame/onesgame.github.io/static/third/vuex/3.0.1/vuex.min.js></script><script src=https://cdn.jsdelivr.net/gh/onesgame/onesgame.github.io/static/third/axios/0.18.0/axios.min.js></script><script src=https://cdn.jsdelivr.net/gh/onesgame/onesgame.github.io/static/third/element-ui/2.13.0/index.js></script><script src=https://cdn.jsdelivr.net/gh/onesgame/onesgame.github.io/static/third/element-ui/2.13.0/locale/zh-CN.min.js></script><script src=https://cdn.jsdelivr.net/gh/onesgame/onesgame.github.io/static/third/element-ui/2.13.0/locale/en.min.js></script><script src=https://cdn.jsdelivr.net/gh/onesgame/onesgame.github.io/static/third/crypto-js/4.0.0/core.min.js></script><script src=https://cdn.jsdelivr.net/gh/onesgame/onesgame.github.io/static/third/crypto-js/4.0.0/sha256.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/gh/onesgame/onesgame.github.io/static/js/manifest.d9d6aed9abd644187a43.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/gh/onesgame/onesgame.github.io/static/js/vendor.0125c3dbabb6311e29cb.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/gh/onesgame/onesgame.github.io/static/js/app.001e6990678cea436ac4.js></script></body></html>
